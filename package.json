@@ -1,0 +1,41 @@
+{
+  "name": "@browserness/sdk",
+  "version": "0.0.3",
+  "description": "Node.js SDK for Browserness API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "browserness",
+    "browser",
+    "automation",
+    "api",
+    "sdk",
+    "nodejs"
+  ],
+  "author": "Browserness",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/browserness/sdk-node.git",
+    "directory": "sdk-node"
+  },
+  "homepage": "https://browserness.com",
+  "bugs": {
+    "url": "https://github.com/browserness/sdk-node/issues"
+  }
+}
